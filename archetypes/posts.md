@@ -1,6 +1,6 @@
 ---
-title: "template"
-date: 2026-05-01
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+date: {{ .Date }}
 draft: true
 authors:
   - "author1"
