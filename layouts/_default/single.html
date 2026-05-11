@@ -6,13 +6,50 @@
   <title>{{ .Title }} &mdash; Your Blog</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
   <style>
-    body{font-family:'Computer Modern Serif',serif}
-    .post-content{display:flex}
-    .post-text{width:50%;border-right:1px solid #ccc;padding-right:1em}
-    .post-attachments{width:33%;padding-left:1em}
-    .post-attachments img{max-width:100%;display:block}
-    .attachment+.attachment{margin-top:1em}
-    pre code{font-family:'Computer Modern Typewriter',monospace}
+    body {
+      font-family: 'Computer Modern Serif', serif;
+      max-width: 1000px; /* Optional: limit overall page width */
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .post-text {
+      width: 60%;
+      position: relative;
+    }
+    .sidenote {
+      float: right;
+      clear: right;
+      width: 50%; /* Width of the sidenote itself */
+      margin-right: -60%; /* Push it into the right margin */
+      margin-bottom: 1em;
+      font-size: 0.9em;
+      color: #555;
+    }
+    .sidenote img {
+      max-width: 100%;
+      display: block;
+    }
+    .sidenote-caption {
+      margin-top: 0.5em;
+      font-style: italic;
+    }
+    pre code {
+      font-family: 'Computer Modern Typewriter', monospace;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      .post-text {
+        width: 100%;
+      }
+      .sidenote {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+    }
   </style>
 </head>
 <body>
@@ -27,22 +64,8 @@
 <h1>{{ .Title }}</h1>
 <p><em>{{ .Date.Format "02/01/06" }}</em> &mdash; {{ if .Params.authors }}{{ delimit .Params.authors ", " }}{{ end }}</p>
 
-<div class="post-content">
-  <div class="post-text">
-    {{ .Content }}
-  </div>
-  <div class="post-attachments">
-    {{ range .Params.attachments }}
-    <div class="attachment"{{ if .margin }} style="margin-top:{{ .margin }}"{{ end }}>
-      {{ if .image }}
-      <img src="{{ .image | relURL }}" alt="{{ .alt | default "attachment" }}">
-      {{ end }}
-      {{ if .code }}
-      <pre><code>{{ .code }}</code></pre>
-      {{ end }}
-    </div>
-    {{ end }}
-  </div>
+<div class="post-text">
+  {{ .Content }}
 </div>
 
 <hr>
