@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Blog</title>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
+  <style>
+    body{font-family:'Computer Modern Serif',serif}
+  </style>
+</head>
+<body>
+
+<img src="/logo1.png" alt="Logo" style="max-width: 200px;">
+<h1>Fractional Disclosure</h1>
+<p><em>Information Security Analysts</em></p>
+
+<p>
+  <a href="/">Archive</a> |
+  <a href="/about/">About</a> |
+  <a href="/index.xml">RSS</a>
+</p>
+
+<hr>
+
+<div class="archive-list">
+  {{ range where .Site.RegularPages "Type" "posts" }}
+  <div>{{ .Date.Format "01/06" }} &mdash; <a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+  {{ end }}
+</div>
+
+<hr>
+
+<p>
+  <a href="https://example.com">Home</a> |
+  <a href="/index.xml">RSS</a>
+</p>
+
+</body>
+</html>

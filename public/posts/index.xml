@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Project</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>template</title>
+      <link>http://localhost:1313/posts/template/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/template/</guid>
+      <description>&lt;p&gt;This is the first paragraph. It&amp;rsquo;s quite a good paragraph. To adjust gaps between attachments, specify the margins in the Hugo template file. Don&amp;rsquo;t forget to edit authors, title, and date as well.&lt;/p&gt;&#xA;&lt;p style=&#34;margin-top:14em&#34;&gt;&amp;hellip;And this is a paragraph with an attachment next to it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
