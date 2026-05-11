@@ -5,7 +5,4 @@
   {{ if .Get "caption" }}
     <p class="sidenote-caption">{{ .Get "caption" }}</p>
   {{ end }}
-  {{ if .Inner }}
-    <div class="sidenote-content">{{ .Inner | markdownify }}</div>
-  {{ end }}
 </aside>
