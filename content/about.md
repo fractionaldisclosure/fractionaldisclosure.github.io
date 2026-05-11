@@ -1,19 +1,15 @@
 ---
 title: "About"
-date: 2026-05-01
+date: 2026-05-11
 ---
 
-Hi, I'm [Your Name]. I write about [topics]. I work at [place] doing [thing].
+## Authors 
 
-I've been writing here since [year]. Posts are usually [length] and come out [frequency]. I try to write things I would have wanted to read earlier in my life.
+**William Rech**
 
-Before this, I [brief background]. I grew up in [place].
+Independent security analyst and general software developer based in South Africa. Send inquiries to agngel at proton mail. I do not own any personal social media.
 
-## Contact
 
-Email: <you@example.com>
-Twitter: [@yourhandle](https://twitter.com/yourhandle)
+## Scope
 
-## Colophon
-
-This site is generated with [Hugo](https://gohugo.io/). No tracking, no ads, no JavaScript. Hosted on [GitHub Pages](https://pages.github.com/).
+Fractional Disclosure is a periodic blog for information security case studies, jointly contributed to by industry professionals and other experts, served to you with minimum waste. 
