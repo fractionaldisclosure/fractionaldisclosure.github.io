@@ -1,6 +1,7 @@
 ---
 title: "template"
 date: 2026-05-01
+draft: true
 authors:
   - "author1"
   - "author2"
