@@ -13,7 +13,6 @@ Before this, I [brief background]. I grew up in [place].
 
 Email: <you@example.com>
 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-RSS: [feed.xml](/index.xml)
 
 ## Colophon
 
