@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .File.ContentBaseName "-" " " | title }}"
-date: {{ .Date }}
+title: "Testpost"
+date: 2026-05-11T06:01:36+02:00
 draft: false
 authors:
   - "author1"
