@@ -9,7 +9,35 @@ authors:
 ---
 
 This is the first paragraph. It is quite a good paragraph. 
-{{< sidenote image="/bipartite.png" caption="A cool chart" >}}
-And this is the next paragraph, which will start immediately below the first one, while the image hangs out in the margin on the right!
+{{< sidenote image="/bipartite.png" caption="cool chart" >}}
 
-This demonstrates the new "Inline Sidenote" architecture. The image is physically anchored inside the text flow but pushed out to the side using CSS floats and negative margins.
+
+
+And this is the next paragraph!
+{{< sidenote image="/bipartite.png" caption="coolest chart" >}}
+<br><br><br>
+And this should have something next to it... hopefully.
+
+
+
+
+
+
+
+
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+This is a paragraph with some space. 
+{{< sidenote image="/bipartite.png" caption="coolest chart" >}}
