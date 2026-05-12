@@ -7,16 +7,19 @@
   <title>Your Blog</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
   <style>
-    body {
-      font-family: 'Computer Modern Serif', serif
-    }
+    body { font-family: 'Computer Modern Serif', serif; }
+    header { display: flex; align-items: center; margin-top: 3em; gap: 1em; }
+    h1 { margin: 0; border-bottom: 1px solid rgba(0, 100, 255, 0.2); padding-bottom: 0; line-height: 0.9; }
+    .logo { max-width: 150px; height: auto; }
   </style>
 </head>
 
 <body>
 
-  <img src="/logo1.png" alt="Logo" style="max-width: 200px;">
-  <h1>Fractional Disclosure</h1>
+  <header>
+    <h1>Fractional Disclosure</h1>
+    <img src="/logo1.png" alt="Logo" class="logo">
+  </header>
   <p><em>Information Security Analysts</em></p>
 
   <p>
