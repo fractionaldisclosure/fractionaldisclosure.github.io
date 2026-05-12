@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Project</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m [Your Name]. I write about [topics]. I work at [place] doing [thing].&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been writing here since [year]. Posts are usually [length] and come out [frequency]. I try to write things I would have wanted to read earlier in my life.&lt;/p&gt;&#xA;&lt;p&gt;Before this, I [brief background]. I grew up in [place].&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:you@example.com&#34;&gt;you@example.com&lt;/a&gt;&#xA;Twitter: &lt;a href=&#34;https://twitter.com/yourhandle&#34;&gt;@yourhandle&lt;/a&gt;&#xA;RSS: &lt;a href=&#34;http://localhost:1313/index.xml&#34;&gt;feed.xml&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;colophon&#34;&gt;Colophon&lt;/h2&gt;&#xA;&lt;p&gt;This site is generated with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;. No tracking, no ads, no JavaScript. Hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>template</title>
+      <link>http://localhost:1313/posts/template/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/template/</guid>
+      <description>&lt;p&gt;This is the first paragraph. It&amp;rsquo;s quite a good paragraph. To adjust gaps between attachments, specify the margins in the Hugo template file. Don&amp;rsquo;t forget to edit authors, title, and date as well.&lt;/p&gt;&#xA;&lt;p style=&#34;margin-top:14em&#34;&gt;&amp;hellip;And this is a paragraph with an attachment next to it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
